@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
         plugin = {"pretty",
                "html:target/Cucumber.html",
                "json:target/Cucumber.json","rerun:target/failed.txt"},
-        tags = "@smoke")
+        tags = "@database")
 
 
 public class SmokeRunner {
