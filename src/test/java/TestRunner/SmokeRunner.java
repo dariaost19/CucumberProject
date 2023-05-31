@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 import java.lang.annotation.Target;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src\\test\\resources\\Features",
+@CucumberOptions(features = "src/test/resources/Features", // need to change it to \\ to run with other applications
         glue = "StepDefinitions",
         dryRun = false,
         plugin = {"pretty",
